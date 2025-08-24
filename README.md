@@ -43,41 +43,19 @@ Or install from requirements file:
 pip install -r requirements.txt
 ```
 
-## 🚀 Quick Start
-
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/stock-price-prediction.git
-cd stock-price-prediction
-```
-
-2. **Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-3. **Run the pipeline**
-```bash
-python stock_predictor.py
-```
-
-4. **View results**
-- Check `results/metrics.txt` for model performance
-- View `results/actual_vs_predicted.png` for visualizations
-
 ## 📁 Project Structure
-
 ```
 stock-price-prediction/
 │
-├── stock_predictor.py          # Main pipeline script
+├── src/
+│   ├── stock_predictor.py      # Main pipeline script
+│   └── __pycache__/            # Python cache files
 ├── results/
 │   ├── metrics.txt             # Model performance metrics
 │   └── actual_vs_predicted.png # Performance visualization
 ├── requirements.txt            # Python dependencies
 ├── README.md                   # Project documentation
 ```
-
 ## 🔍 Feature Engineering
 
 The pipeline creates the following predictive features:
@@ -102,22 +80,6 @@ The pipeline creates the following predictive features:
 - **MAE**: $9.32 - Less consistent predictions
 - **R²**: 0.4461 - Explains 44.61% of price variance
 
-## 🎯 Business Applications
-
-- **Investment Strategy**: Support for buy/sell decisions
-- **Risk Management**: Portfolio risk assessment
-- **Market Analysis**: Understanding price patterns
-- **Algorithmic Trading**: Component in trading systems
-
-## 🔮 Future Enhancements
-
-- [ ] Multi-stock prediction capability
-- [ ] Real-time data integration
-- [ ] Advanced deep learning models (LSTM, GRU)
-- [ ] Sentiment analysis integration
-- [ ] Web dashboard for visualization
-- [ ] Automated trading simulation
-
 ## 📊 Output
 
 ```
@@ -137,7 +99,23 @@ Random Forest:
   R2: 0.4461
 ```
 
-## 👨‍💻 Author
+## 🎯 Business Applications
+
+- **Investment Strategy**: Support for buy/sell decisions
+- **Risk Management**: Portfolio risk assessment
+- **Market Analysis**: Understanding price patterns
+- **Algorithmic Trading**: Component in trading systems
+
+## 🔮 Future Enhancements
+
+- [ ] Multi-stock prediction capability
+- [ ] Real-time data integration
+- [ ] Advanced deep learning models (LSTM, GRU)
+- [ ] Sentiment analysis integration
+- [ ] Web dashboard for visualization
+- [ ] Automated trading simulation
+
+## Author
 
 **Sharan Karthik**
 - GitHub: [sk-0607](https://github.com/sk-0607/)
