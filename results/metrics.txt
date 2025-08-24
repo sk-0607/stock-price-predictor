@@ -1,0 +1,15 @@
+Stock Price Prediction Results for AAPL
+==================================================
+
+Generated on: 2025-08-23 20:00:16
+
+Linear Regression:
+  RMSE: $4.19
+  MAE: $2.79
+  R2: 0.9313
+
+Random Forest:
+  RMSE: $11.90
+  MAE: $9.32
+  R2: 0.4461
+
